@@ -1,0 +1,287 @@
+body {
+  background: #0b0c10 !important;
+}
+.section-heading {
+  color: #45a29a;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 300;
+  margin-top: 50px;
+}
+#myIntro {
+  color: white;
+  text-align: center;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 100;
+  margin-top: 50px;
+  text-shadow:
+    /* White glow */ 0 0 3px #fff;
+}
+.neonText {
+  color: #fff;
+  text-shadow:
+    /* White glow */ 0 0 5px #fff;
+}
+
+.links {
+  border-bottom: 4px solid #00625c;
+}
+
+nav a {
+  font-family: "Fira Sans Condensed", sans-serif;
+  text-decoration: none;
+}
+.navlink {
+  margin-left: 50px;
+  border-bottom: 0.3rem solid transparent;
+  font-size: 20px;
+  color: rgb(131, 216, 228);
+}
+.navlink:hover {
+  font-size: 25px;
+  color: rgba(229, 239, 244, 0.95);
+  transition: ease-in-out;
+  transition-duration: 00.35s;
+}
+
+#About {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-top: 150px;
+}
+#About img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+#About p {
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 200;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#About-content {
+  margin-top: 50px;
+}
+#About-content a {
+  text-decoration: none;
+  font-family: "Lexend Deca", sans-serif;
+}
+#resume {
+  border-bottom: 4px solid #66fcf1;
+}
+
+#edu {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-top: 5%;
+}
+#edu h3 {
+  color: #66fcf1;
+  padding-left: 5%;
+  font-weight: 100;
+
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#edu p {
+  padding-left: 5%;
+}
+#edu-content {
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+}
+.edu-1para {
+  margin-top: 50px;
+}
+
+/* Projects */
+#prj {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-top: 5%;
+}
+#prj p {
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 200;
+  margin-left: 50px;
+}
+.prj-heading {
+  color: #66fcf1;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 300;
+  margin-left: 50px;
+  margin-top: 50px;
+
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.prj-description {
+  color: white;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 200;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.prj-tech-stack {
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 200;
+  margin-top: 15px;
+}
+.prj-live-link {
+  color: white;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 200;
+  margin-top: 15px;
+  border-bottom: 4px solid #66fcf1;
+}
+.prj-github-link {
+  color: white;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 200;
+  margin-top: 15px;
+  border-bottom: 4px solid #66fcf1;
+}
+#prj a {
+  text-decoration: none;
+  color: white;
+}
+
+#contact {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-top: 5%;
+  margin-bottom: 30px;
+}
+#contact p {
+  text-align: center;
+  margin-top: 50px;
+}
+.contact-items {
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+.contact-items img:hover {
+  transform: scale(1.5, 1.5);
+  transition-duration: 0.35s;
+  transition-timing-function: ease;
+}
+
+footer span {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.clicklink {
+  text-decoration: none;
+  color: #66fcf1;
+}
+
+#upward-button{
+  display: none;
+  width: 90px;
+  right: 30px;
+  bottom: 30px;
+  position: fixed;
+  cursor: pointer;
+  z-index: 99;
+}
+
+/* mobile view */
+
+@media screen and (max-device-width:700px){
+
+  /* for Mobile */
+
+   .nav-link{
+       margin-left: 0px;
+   }
+
+   
+
+   #about{
+       margin-left: 12.5%; 
+       margin-right: 12.5%;
+   }
+   #about img {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 50%;
+   }
+   #about h1{
+       text-align: center;
+   }
+   #about h2{
+       text-align: center;
+   }
+   #about p{
+       text-align: center;
+       padding-left: 5%;
+       padding-right: 5%;
+   }
+   #about p a img{
+       margin-left: auto;
+       width: 25%;
+   }
+
+   
+   #education p{
+       text-align: center;
+       padding-left: 5%;
+       padding-right: 5%;
+   }
+   #education h2{
+       text-align: center;
+   }
+   #education{
+       margin-top: 50px;
+   }
+
+  
+
+   #projects h2, h3{
+       text-align: center;
+   }
+   #projects p{
+       margin-left: 0px;
+   }
+   .project-heading{
+       margin-left: 0px;
+   }
+   .project-description{
+       margin-left: 0px;
+   }
+   
+  
+
+   #contact{
+       margin-left: 12.5%; 
+       margin-right: 12.5%;
+       margin-top: 12.5%;
+   }
+   #contact h2{
+       text-align: center;
+   }
+   #contact p{
+       text-align: center;
+   }
+   .contact-items{
+       padding-left: 2.5%;
+       padding-right: 2.5%;
+   }
+
+   #upward-button{
+    right: 15px;
+    bottom: 15px;
+} 
+
+}
+
